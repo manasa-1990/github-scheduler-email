@@ -7,8 +7,8 @@ on:
   
 jobs:
   my-job:
-  run-on: ubuntu-latest
+   runs-on: ubuntu-latest
   
-       steps:
+     steps;
       - name:first-step
         run:echo "hello world"   
